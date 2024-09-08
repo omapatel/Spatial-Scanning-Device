@@ -4,19 +4,19 @@
 
 # Overview
 The room which ToF data was to be gathered from.
-![IMG_4876](https://github.com/user-attachments/assets/bf5baee0-e80e-475e-bf38-6514a760c6cc) \
+![IMG_4876](https://github.com/user-attachments/assets/bf5baee0-e80e-475e-bf38-6514a760c6cc)
 
 The device itself, featuring the MSP432E401Y microcontroller, VL53L1X ToF sensor attached to a stepper motor using a 3D-printed mount. The device is connected to a computer/laptop which runs a python script in the background, collected the ToF data for Open3D (python library) visualization.
-![IMG_4929](https://github.com/user-attachments/assets/6a0f4ea1-46b0-43cc-9557-2e141a12a6c3) \
+![IMG_4929](https://github.com/user-attachments/assets/6a0f4ea1-46b0-43cc-9557-2e141a12a6c3)
 
 The resulting Open3D visual from the ToF data.
-![2](https://github.com/user-attachments/assets/e89c351b-6fa7-4d6b-9ccc-1e08153232bb)\
+![2](https://github.com/user-attachments/assets/e89c351b-6fa7-4d6b-9ccc-1e08153232bb)
 
 Block diagram showing how different components are connected.
-![image](https://github.com/user-attachments/assets/315e261d-8b3d-4cae-b51a-adda9c50a2fd)\
+![image](https://github.com/user-attachments/assets/315e261d-8b3d-4cae-b51a-adda9c50a2fd)
 
 The circuit schematic showcasing the connections in greater detail.
-![image](https://github.com/user-attachments/assets/066b712c-41ee-4dc6-9162-0fa9b78cb8c6)\
+![image](https://github.com/user-attachments/assets/066b712c-41ee-4dc6-9162-0fa9b78cb8c6)
 
 # Description
 The device is designed for capturing spatial information within indoor environments. It combines the capabilities of the VL53L1X Time-of-Flight (ToF) sensor (mounted to the 28BYJ-48 Stepper Motor) and the MSP432E401Y microcontroller to create discretized room scans and visualize them using Python.

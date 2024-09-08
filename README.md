@@ -3,7 +3,7 @@
 #### Scanning device able to gather and visualize Time-of-Flight data
 
 # Overview
-The room which ToF data to be gathered from.
+The room which ToF data was to be gathered from.
 ![IMG_4876](https://github.com/user-attachments/assets/bf5baee0-e80e-475e-bf38-6514a760c6cc) \
 \
 The device itself, featuring the MSP432E401Y microcontroller, VL53L1X ToF sensor attached to a stepper motor using a 3D-printed mount. The device is connected to a computer/laptop which runs a python script in the background, collected the ToF data for Open3D (python library) visualization.
